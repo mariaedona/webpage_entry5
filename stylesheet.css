@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(255, 255, 255) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    box-shadow: 0px 0px 10px black;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: rgb(23, 7, 15);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 40px;
+    background-color: #b987df;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.weben {
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.landing {
+    text-align: left;
+    padding: 50px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+
+.Alagon {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Alagon .container-1 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Co {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Co .container-2 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.DelaRama {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.DelaRama .container-3 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Inocencio {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Inocencio .container-4 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Llanes {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Llanes .container-5 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Melad {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Melad .container-6 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Rubia {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Rubia .container-7 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Zablan {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Zablan .container-8 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background: #5d1e8c;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.vid {
+    text-align: center;
+}
+
+@media screen and (max-width:900px) {
+    .carousel img {
+        height: 225px;
+        width: 100%;
+    }
+}
+
+
+/*to be edited in the future*/
+@media screen and (max-width:600) {
+    .carousel img {
+        height: 225px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .carousel img {
+        height: 225px;
+        width: 100%;
+    }
+}
